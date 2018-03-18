@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="enpi23.modul4.prak.anrdro.victor_1202150100_modul4.ImageSearchActivity">
+
+    <TextView
+        android:id="@+id/tvTitleSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Cari Gambar"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="7dp"/>
+
+    <EditText
+        android:id="@+id/etURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan URL gambar"
+        android:layout_marginBottom="7dp"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cari Gambar"
+        android:onClick="cariGambar"/>
+
+    <ImageView
+        android:id="@+id/ivHasilSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp" />
+
+</LinearLayout>
